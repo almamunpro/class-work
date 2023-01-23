@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: auto;
+      
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+.container{
+    display: grid;
+    align-items: center;  
+    justify-content: space-around;
+    background-color: aqua;
+}
+.container img{
+    width: auto;
+    height: 1000px;
+}
+.name, .id{
+    font-size: 80px;
+}
+
+.title{
+    display: none;
+}
+.container:hover .title{
+    display: block;
+
+}
