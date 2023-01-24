@@ -3,6 +3,7 @@ body{
     display: grid;
     align-items: center;
     justify-content: center;
+    font-family: "poppins";
 }
 .main{
     display: grid;
@@ -11,7 +12,7 @@ body{
     width: auto;
       
     justify-content: space-around;
-    gap: 25px;
+    gap: 200px;
     
 }
 .container{
@@ -24,14 +25,25 @@ body{
     width: auto;
     height: 1000px;
 }
-.name, .id{
-    font-size: 80px;
+.name{
+    font-size: 57px;
+    margin-top: -165px;
+    margin-left: -141px;
+    color: #00b3ff;
 }
-
+.id{
+    font-size: 80px;
+    color: #0e3a28;
+}
 .title{
     display: none;
 }
 .container:hover .title{
     display: block;
-
+}
+.container:hover .name{
+    font-size: 80px;
+    color: #0e3a28;
+    margin-top: 0px;
+    margin-left: 0px;
 }
